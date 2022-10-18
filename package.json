@@ -2,7 +2,7 @@
   "name": "wanted-pre-onboarding",
   "version": "1.0.0",
   "description": "Node js RESTFUL api, MySQL, Sequelize",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/SongJeaHo/wanted-pre-onboarding/issues"
   },
-  "homepage": "https://github.com/SongJeaHo/wanted-pre-onboarding#readme"
+  "homepage": "https://github.com/SongJeaHo/wanted-pre-onboarding#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.2",
+    "sequelize-cli": "^6.5.1"
+  }
 }
