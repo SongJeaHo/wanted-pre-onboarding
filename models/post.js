@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
                 allowNull: false,
             },
             company_id: {
-                type: DataTypes.INT,
+                type: DataTypes.INTEGER,
             },
             position: {
                 type: DataTypes.STRING(20),

@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
         },
         
         country_id: {
-          type: DataTypes.INT,
+          type: DataTypes.INTEGER,
         }
       },
       {
